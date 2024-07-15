@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommuNITTY</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class ='main'>
+    <div >
+    <nav class="navg">
+        <div class="logo">
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/8b/National_Institute_of_Technology_Trichy_Logo.png" alt="CommuNITTY">
+          <span>CommuNITTY</span>
+        </div>
+        <ul>
+          <li><a href="#" class="active"><i class="icon-dashboard"></i><img  class="img" src="dashboard-3-svgrepo-com (1).svg" alt="Dashboard">Dashboard</a></li>
+          <li><a href="#"><i class="icon-schedule"></i><img  class="img" src="schedule-svgrepo-com.svg" alt="Dashboard">Class Schedule</a></li>
+          <li><a href="#"><i class="icon-updates"></i><img  class="img" src="announcement-01-svgrepo-com.svg" alt="Dashboard">Updates</a></li>
+          <li><a href="#"><i class="icon-attendance"></i><img  class="img" src="students-teacher-and-blackboard-svgrepo-com.svg" alt="Dashboard">Attendance</a></li>
+          <li><a href="#"><i class="icon-resources"></i><img  class="img" src="books-and-people-svgrepo-com.svg" alt="Dashboard">Class Resources</a></li>
+          <li><a href="#"><i class="icon-menu"></i><img  class="img" src="food-dish-svgrepo-com.svg" alt="Dashboard">Mess Menu</a></li>
+        </ul>
+        <div class="account-section">
+            <h3>ACCOUNTS</h3>
+          <ul>
+            <li><a href="#"><i class="icon-profile"></i><img  class="img" src="profile-round-1345-svgrepo-com.svg" alt="Dashboard">Profile</a></li>
+            <li><a href="#"><i class="icon-signin"></i><img  class="img" src="sign-in-svgrepo-com.svg" alt="Dashboard">Sign In</a></li>
+            <li><a href="#"><i class="icon-signup"></i><img  class="img" src="new-user-svgrepo-com.svg" alt="Dashboard">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      <div class="tracker-container">
+        <div class="tracker-header">Attendance Tracker</div>
+        <canvas id="attendanceChart" width="400" height="200"></canvas>
+    </div>
+      <div class="menu-container">
+        <div class="menu-header">Today's Mess Menu</div>
+        <div class="menu-item">
+            <div class="meal-type" style="text-decoration:underline ;">Breakfast</div>
+            <div class="meal-items">Boiled Egg, Pongal, Vada, Sambar, Tomato/Onion Chutney, Idly Podi, Sesame Oil</div>
+        </div>
+        <div class="menu-item">
+            <div class="meal-type" style="text-decoration:underline ;">Lunch</div>
+            <div class="meal-items">White Rice, Chapati, Sambar (Carrot+Beans) Rajma Masala Gravy, Egg Omelet (NV), Kadai Paneer (V), Pineapple Juice</div>
+        </div>
+        <div class="menu-item">
+            <div class="meal-type" style="text-decoration:underline ;">Snacks</div>
+            <div class="meal-items">Sweet Corn</div>
+        </div>
+        <div class="menu-item">
+            <div class="meal-type" style="text-decoration:underline ;">Dinner</div>
+            <div class="meal-items" style="font-family: sans-serif;">Ghee Rice, Idly, Coconut Chutney, Sambar, Ice Cream, Papaya Fruit Cut</div>
+        </div>
+    </div>
+    <div class="class_container">
+      <div class="schedule">
+          <div class="heading" style="text-align: center;">
+              Today's Classes
+          </div>
+          <div class="con">
+          <div class="timing">
+              <div class="classes">
+                  <span class="time">08:30 am</span>
+                  <span class="subject">CELR11</span>
+              </div>
+              <div class="classes">
+                  <span class="time">09:20 am</span>
+                  <span class="subject">CELR12</span>
+              </div>
+              <div class="classes">
+                  <span class="time">10:30 am</span>
+                  <span class="subject">CAML14</span>
+              </div>
+              <div class="classes">
+                  <span class="time">11:20 am</span>
+                  <span class="subject">CAML13</span>
+              </div>
+              <div class="classes">
+                  <span class="time">01:30 pm</span>
+                  <span class="subject">CEPC11</span>
+              </div>
+              <div class="classes">
+                  <span class="time">02:30 pm</span>
+                  <span class="subject">MAIR12</span>
+              </div>
+          </div>
+          <div class="assignments">
+            <div class="heading" style="text-align: center;">
+                Upcoming Assignments
+            </div>
+            <div class="task_container">
+                <div class="tasks">
+                    <div class="taskname">
+                        <span>Assignment-1</span>
+                        <span>Water Resources</span>
+                    </div>
+                    <div class="deadline">
+                        <span>12 july</span>
+                        <span>CHIR 12</span>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <div class="taskname">
+                        <span>Assignment-1</span>
+                        <span>Water Resources</span>
+                    </div>
+                    <div class="deadline">
+                        <span>12 july</span>
+                        <span>CHIR 12</span>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <div class="taskname">
+                        <span>Assignment-1</span>
+                        <span>Water Resources</span>
+                    </div>
+                    <div class="deadline">
+                        <span>12 july</span>
+                        <span>CHIR 12</span>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <div class="taskname">
+                        <span>Assignment-1</span>
+                        <span>Water Resources</span>
+                    </div>
+                    <div class="deadline">
+                        <span>12 july</span>
+                        <span>CHIR 12</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <img class="moon" src="moon-svgrepo-com.svg">
+    <script src="main.js"></script>
+</body>
+</html>
